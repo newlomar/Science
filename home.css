@@ -1,4 +1,37 @@
+html {
+  font-size: 10px;;
+}
+
 body {
   background: #000;
   color: #fff;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.search-bar {
+  display: flex;
+  border: 1px solid #fff;
+  height: 30px;
+}
+
+.busca {
+  background: green;
+  border: none;
+}
+
+.glass {
+  background: green;
+}
+
+.hamburguer {
+  height: 40px;;
+}
+
+.hidden {
+  display: none;
 }
