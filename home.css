@@ -16,12 +16,14 @@ body {
 .search-bar {
   display: flex;
   border: 1px solid #fff;
-  height: 30px;
+  height: 30px;  
+  border-radius: 20px;
 }
 
 .busca {
   background: green;
   border: none;
+  border-radius: 20px;
 }
 
 .glass {
