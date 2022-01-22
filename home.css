@@ -1,5 +1,11 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 html {
-  font-size: 10px;;
+  font-size: 10px;
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -11,29 +17,60 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background: #A6E50F;
+  padding: 1rem;
 }
 
 .search-bar {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   border: 1px solid #fff;
-  height: 30px;  
-  border-radius: 20px;
+  height: 3rem;  
+  border-radius: 1rem;
+  padding: 0.2rem 0.5rem;
+  width: 70%;
 }
 
 .busca {
-  background: green;
+  background: #A6E50F;
   border: none;
-  border-radius: 20px;
+  height: 100%;
+  width: 100%;
 }
 
-.glass {
-  background: red;
+.busca:focus {
+  outline: none;
+}
+
+.busca::placeholder {
+  color: #fff;
+}
+
+.lupa {
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 .hamburguer {
-  height: 40px;;
+  height: 4rem;
 }
 
 .hidden {
   display: none;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  background: url('./home_hero.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.hero__header {
+  font-size: 3.5rem;
+  text-align: center;
+  font-weight: 400;
 }
